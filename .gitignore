@@ -3,5 +3,6 @@
 *.png
 *.pyc
 *.svg
+cfg/CONFIG_*.ini
 dat/ne_*
 
