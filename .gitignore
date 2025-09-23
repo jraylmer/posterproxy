@@ -1,0 +1,7 @@
+*.log
+*.pid
+*.png
+*.pyc
+*.svg
+dat/ne_*
+
