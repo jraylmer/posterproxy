@@ -206,11 +206,11 @@ def xy_latitude_gridlines(axs, lon_lims, lats=None, line_kw=None,
     else:
         arc_angle += config.defaults["central_longitude"]
 
-    # Create copy of psp_xy_kw with xyp = (0, 0), because this is needed to
-    # properly calculated arc radii, and use the provided or default value of
-    # xyp to determine the center:
-    if "xyp" in psp_xy_kw.keys():
-        arc_center = psp_xy_kw["xyp"]
+    # Create copy of psp_xy_kw with xy_offset = (0, 0), because this is needed
+    # to properly calculated arc radii, and use the provided or default value of
+    # xy_offset to determine the center:
+    if "xy_offset" in psp_xy_kw.keys():
+        arc_center = psp_xy_kw["xy_offset"]
     else:
         arc_center = config.defaults["xy_offset"]
 
