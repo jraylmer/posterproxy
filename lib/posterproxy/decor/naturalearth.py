@@ -621,7 +621,7 @@ def land_overlay(axs, land=True, coastlines=True,
 
         if south_polar:
             # TODO: de-hardcode this property:
-            bbox = [(0., -90.), (360., 45.)]
+            bbox = [[0., -90.], [360., 45.]]
 
             # TODO: abstract this into psp module:
             if "central_longitude" in mod_psp_xy_kw.keys():
