@@ -51,7 +51,7 @@ sets the appropriate axes display (equal aspect, no tick labels) and limits.
 """
 
 __author__  = "Jake Aylmer"
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 import numpy as np
 
